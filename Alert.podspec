@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.authors            = { "Colin" => "wangchunlin@putao.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/Colin225/Alert.git", :tag => "#{s.version}" }
-  s.source_files  = "Classes/**/*.{h,m}"
+  s.source_files  = "Classes/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
   # s.resource  = "icon.png"
