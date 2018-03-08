@@ -9,15 +9,15 @@
 Pod::Spec.new do |s|
 
   s.name         = 'Alert'
-  s.version      = "'0.0.1'
-  s.summary      = "Alert summary"
+  s.version      = '0.0.1'
+  s.summary      = 'Alert summary'
   s.description  = 'Alert description'
   s.homepage     = "https://github.com/Colin225/Alert"
   s.license      = "MIT"
   s.author             = { "Colin" => "502383520@qq.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/Colin225/Alert.git", :tag => s.version }
-  s.source_files  = "Classes/*.{h,m}"
+  s.source_files  = 'Classes/*'
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
   # s.resource  = "icon.png"
