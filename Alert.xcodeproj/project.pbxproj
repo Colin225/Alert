@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BFBBCAB20512D9E00CD27B3 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBBCAA20512D9E00CD27B3 /* MyViewController.m */; };
 		D7C93E321CF818EC003EE361 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C93E311CF818EC003EE361 /* main.m */; };
 		D7C93E351CF818EC003EE361 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C93E341CF818EC003EE361 /* AppDelegate.m */; };
 		D7C93E381CF818EC003EE361 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C93E371CF818EC003EE361 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3BFBBCA920512D9E00CD27B3 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		3BFBBCAA20512D9E00CD27B3 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		D7C93E2D1CF818EC003EE361 /* Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C93E311CF818EC003EE361 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7C93E331CF818EC003EE361 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +57,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BFBBCA820512D7C00CD27B3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3BFBBCA920512D9E00CD27B3 /* MyViewController.h */,
+				3BFBBCAA20512D9E00CD27B3 /* MyViewController.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
 		D7C93E241CF818EC003EE361 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +87,7 @@
 		D7C93E2F1CF818EC003EE361 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				3BFBBCA820512D7C00CD27B3 /* Classes */,
 				D7C93E331CF818EC003EE361 /* AppDelegate.h */,
 				D7C93E341CF818EC003EE361 /* AppDelegate.m */,
 				D7C93E361CF818EC003EE361 /* ViewController.h */,
@@ -179,6 +193,7 @@
 			files = (
 				D7C93E381CF818EC003EE361 /* ViewController.m in Sources */,
 				D7C93E351CF818EC003EE361 /* AppDelegate.m in Sources */,
+				3BFBBCAB20512D9E00CD27B3 /* MyViewController.m in Sources */,
 				D7C93E321CF818EC003EE361 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
